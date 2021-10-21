@@ -1,0 +1,12 @@
+Position Parameter
+
+Name Parameter 
+$sql="insert into user_data (Email,Name,Password,Mobile,Age) values(:email,:name,:pass,:mob,:age)";
+
+Position Parameter
+$sql="insert into user_data (Email,Name,Password,Mobile,Age) values(?,?,?,?,?)";
+
+conn->preparae
+
+bindParam(':email',variable)
+
